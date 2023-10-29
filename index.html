@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Иконочый шрифт-->
+	<link rel="stylesheet" href="css/iconsfont.css">
+	<!--Фавиконки-->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="img/favicons/site.webmanifest"> 
+	<!--Подключение слайдера-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+	<!--Стили-->
+	<link rel="stylesheet" href="css/style.css">
+	<title>Survive at all costs</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main swiper-container" id ="main">
+			<div class="header">
+			    <div class="container">
+				    <div class="header__body">
+				    	<div class="header__logo">
+				    		<img src="img/logo.png" alt="Логотип">
+				    	</div>
+				    	<div class="header__menu">
+				    		<div class="menu-header__icon">
+				    		    <span></span>
+				    		    <span></span>
+				    		    <span></span>
+				    	    </div>
+				    	    <nav class="menu-header__menu">
+				    	    	<ul class="menu-header__list">
+				    	    		<li><a href="#main" class="menu-header__link" data-lang = "main">Main</a></li>    
+				    	    		<li><a href="#about" class="menu-header__link" data-lang = "about">about</a></li>    
+				    	    		<li><a href="#features" class="menu-header__link" data-lang = "game">game features</a></li>
+				    	    		<li><a href="#system" class="menu-header__link" data-lang = "system">System requirements</a></li>
+				    	    		<li><a href="#quotes" class="menu-header__link" data-lang = "quotes">quotes</a></li>   
+				    	    	</ul>
+				    	    </nav>
+				    	</div>
+				    	<div class="header__items">
+				    		<div class="header__language">
+				    			<a href = "#" class="header__button choseeLang langBtn" data-btn = "en">eng</a>
+				    			<ul class="header__langlist hidden">
+				    				<li><a href="#" class="header__langlink choseeLang" data-btn = "ru">rus</a></li>
+				    				<li><a href="#" class="header__langlink choseeLang" data-btn = "fr">fra</a></li>
+				    				<li><a href="#" class="header__langlink choseeLang" data-btn = "de">deu</a></li>
+				    			</ul>				    			
+				    		</div>
+				    		<span class="header__line"></span>
+				    		<div class="header__social">
+				    			<span class="icon icon-xbox"></span>
+				    			<span class="icon icon-steam"></span>
+				    		</div>
+				    	</div>
+				    </div>
+			    </div>
+			</div>
+			<div class="main__contentblock">
+				<div class="container">
+					<div class="main__content">
+						<div class="main__title">
+							<h1 data-lang = "main_title">SURVIVE AT ALL COSTS</h1>
+						</div>
+						<div class="main__subtitle">
+							<h2 data-lang = "main_subtitle">Experience new social battle royale game</h2>
+						</div>
+						<div class="main__button btn">
+							<div class="main__text" data-lang = "main_text">Buy now on Steam</div>
+							<span class="main__line"></span>
+							<div class="main__cost">$14.99</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__footerblock">
+				<div class="container">
+					<div class="main__footer">
+						<div class="main__storybtn">
+						<a href = "#about" class="main__storytext"  data-lang = "main_storytext">The story</a>
+						<div class="main__scroll">
+							<img src="img/icons/main__scroll.svg" alt="Кнопка скролла">
+						</div>
+					</div>
+					<div class="main__footeritems">
+						<svg class = "main__prev" xmlns="http://www.w3.org/2000/svg" width="135" height="12" viewBox="0 0 135 12" fill="none">
+						  <path d="M134.059 5.98751L129.358 2.42911V5.98751V9.23021L134.059 5.98751Z" fill="white"/>
+						  <path d="M92.4253 5.98751H129.358M129.358 2.42911L134.059 5.98751L129.358 9.23021V2.42911Z" stroke="white" stroke-width="1.19824" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						<svg class = "main__next" xmlns="http://www.w3.org/2000/svg" width="135" height="12" viewBox="0 0 135 12" fill="none">
+						  <path d="M134.059 5.98751L129.358 2.42911V5.98751V9.23021L134.059 5.98751Z" fill="white"/>
+						  <path d="M92.4253 5.98751H129.358M129.358 2.42911L134.059 5.98751L129.358 9.23021V2.42911Z" stroke="white" stroke-width="1.19824" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						<div class="main__paginationblock">
+							<div class="main__pagination"></div>		
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__wrapper-for-slider swiper-wrapper">
+				<div class="main__swiper-slide swiper-slide">
+					<img src="img/img_bg/bg_main.png" alt="Фоновое изображение">
+				</div>
+				<div class="main__swiper-slide swiper-slide">
+					<img src="img/img_bg/bg_about.png" alt="Фоновое изображение">
+				</div>
+				<div class="main__swiper-slide swiper-slide">
+					<img src="img/img_bg/bg_features.png" alt="Фоновое изображение">
+				</div>
+				<div class="main__swiper-slide swiper-slide">
+					<img src="img/img_bg/bg_system.png" alt="Фоновое изображение">
+				</div>
+			</div>
+			<div class="main__bg"></div>
+		</div>
+		<div class="about" id = "about">
+			<div class="container">
+				<div class="about__content">
+					<div class="about__textblock">
+						<div class="about__titleblock">
+							<h3 data-lang = "about_title_what">What is SOS?</h3>
+							<h2 data-lang = "about_title_social">social battle royale game</h2>
+						</div>
+						<span class="about__line"></span>
+						<div class="about__description">
+							<p data-lang = "about_descr_p1">Each round, <span>you</span> and <span>15</span>other contestants compete to escape a deadly island filled with monsters. The trick is: three people can survive. Will you run solo or form friendships with others to escape?</p>
+							<p data-lang = "about_descr_p2">Making the right decisions could be the difference between <span>life and death.</span></p>
+						</div>
+					</div>
+					<div class="about__imgblock swiper-container">
+						<div class="about__wrapper swiper-wrapper">
+							<div class="about__img swiper-slide">
+								<img src="img/img_about/01.jpg" alt="Изображение слайдера из галлереи">
+							</div>
+							<div class="about__img swiper-slide">
+								<img src="img/img_about/02.jpg" alt="Изображение слайдера из галлереи">
+							</div>
+							<div class="about__img swiper-slide">
+								<img src="img/img_about/03.jpg" alt="Изображение слайдера из галлереи">
+							</div>
+							<div class="about__img swiper-slide">
+								<img src="img/img_about/04.jpg" alt="Изображение слайдера из галлереи">
+							</div>
+							<div class="about__pagination">
+								<div class="about__swiper swiper-pagination"></div>
+								<span class = "about_progressbar progressbar"></span>
+							</div>
+						</div>
+					</div>
+					<img src="img/icons/about_next.svg" class="about__icons about__prev swiper-icon-arrow" alt="Скролл">
+					<img src="img/icons/about_next.svg" class="about__icons about__next swiper-icon-arrow" alt="Скролл">
+				</div>
+			</div>
+		</div>
+		<div class="features" id = "features">
+			<div class="container">
+				<div class="features__bodyblock">
+					<div class="features__body">
+					<div class="features__titleblock">
+						<h3 data-lang = "features_title_what">What’s so special?</h3>
+						<h2 data-lang = "features_title_features">features</h2>
+					</div>
+					<div class="features__contentblock">
+						<div class="features__content">
+						    <div class="features__item">
+						    	<div class="features__circle"></div>
+						    	<div class="features__textblock">
+						    		<h3 class="features__subtitle" data-lang = "features_survive">SURVIVE AT ALL COSTS</h3>
+						    	    <div class="features__text" data-lang ="features_survive_text">You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.</div>
+						    	</div>
+						    </div>
+						    <div class="features__item">
+						    	<div class="features__circle"></div>
+						    	<div class="features__textblock">
+						    		<h3 class="features__subtitle" data-lang = "features_create">CREATE ALLIES AND ENEMIES</h3>
+						    	    <div class="features__text" data-lang = "features_create_text">You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.</div>
+						    	</div>
+						    </div>
+						    <div class="features__item">
+						    	<div class="features__circle"></div>
+						    	<div class="features__textblock">
+						    		<h3 class="features__subtitle" data-lang = "features_impress">IMPRESS THE AUDIENCE</h3>
+						    	    <div class="features__text" data-lang = "features_impress_text">You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.</div>
+						    	</div>	
+						    </div>
+					    </div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="system" id = "system">
+			<div class="container">
+				<div class="system__body">
+					<div class="system__title">
+						<h3 data-lang = "system_title_can">Can My Computer Run this game?</h3>
+						<h2 data-lang = "system_title_system">system requirements</h2>
+					</div>
+					<div class="system__table table">
+						<div class="table-item">
+							<h3 class="table-item__title" data-lang = "system_table_os">OS:</h3>
+							<div class="table-item__text" data-lang = "system_table_windows">Windows 7 64-bit only (No OSX support at this time)</div>
+						</div>
+						<div class="table-item">
+							<h3 class="table-item__title" data-lang = "system_table_processor">pROCESSOR:</h3>
+							<div class="table-item__text" data-lang = "system_table_intel">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</div>
+						</div>
+						<div class="table-item">
+							<h3 class="table-item__title" data-lang = "system_table_memory">mEMORY:</h3>
+							<div class="table-item__text" data-lang = "system_table_gb">8 GB RAM</div>
+						</div>
+						<div class="table-item">
+							<h3 class="table-item__title" data-lang = "system_table_storage">storage:</h3>
+							<div class="table-item__text" data-lang = "system_table_space">8 GB available space</div>
+						</div>
+						<div class="table-item">
+							<h3 class="table-item__title" data-lang = "system_table_graphics">GRAPHICS:</h3>
+							<div class="table-item__text" data-lang = "system_table_nvidia">NVIDIA GeForce GTX 660 2GB or  AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</div>
+							<div class="table-item__bottom_items">
+								<span class="table-item__item"></span>
+								<span class="table-item__item"></span>
+								<span class="table-item__item"></span>
+								<span class="table-item__item"></span>
+								<span class="table-item__item"></span>
+								<span class="table-item__item"></span>
+								<span class="table-item__item"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="quotes" id = "quotes">
+			<div class="container">
+				<div class="quotes__body">
+					<div class="quotes__content">
+						<div class="quotes__titleblock">
+							<h3 data-lang = "quotes_what">What people think?</h3>
+							<h2 data-lang = "quotes_press">Press quotes</h2>
+						</div>
+						<div class="quotes__desc" data-lang = "quotes_desc">
+							Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.
+						</div>
+						<div class="quotes__btn btn" data-lang = "quotes_btn">
+							<span>r</span>ead more testimonials
+						</div>
+					</div>
+					<div class="quotes__comments">
+						<div class="quotes__comment comment">
+							<div class="comment__titleblock">
+								<div class="comment__photo">
+									<img src="img/img__quotes/01.jpg" alt="Фотография профиля">
+								</div>
+								<div class="comment__info">
+									<h3 class="comment__name" data-lang = "comment_1_name">Evan Lahti</h3>
+									<div class="comment__profession" data-lang = "comment_1_prof">PC Gamer</div>
+								</div>
+								<div class="comment__social">
+									<span class="icon-twitter1"></span>
+								</div>
+							</div>
+							<div class="comment__footer">
+								<div class="comment__text" data-lang = "comment_1_text">“One of my gaming highlights of the year.”</div>
+								<div class="comment__date" data-lang = "comment_1_date">October 18, 2018</div>
+							</div>
+						</div>
+						<div class="quotes__comment comment">
+							<div class="comment__titleblock">
+								<div class="comment__photo">
+									<img src="img/img__quotes/02.jpg" alt="Фотография профиля">
+								</div>
+								<div class="comment__info">
+									<h3 class="comment__name" data-lang = "comment_2_name">Jada Griffin</h3>
+									<div class="comment__profession" data-lang = "comment_2_prof">Nerdreactor</div>
+								</div>
+								<div class="comment__social">
+									<span class="icon-twitter1"></span>
+								</div>
+							</div>
+							<div class="comment__footer">
+								<div class="comment__text" data-lang = "comment_2_text">“The next big thing in the world of streaming and survival games.”</div>
+								<div class="comment__date" data-lang = "comment_2_date">December 21, 2018</div>
+							</div>
+						</div>
+						<div class="quotes__comment comment">
+							<div class="comment__titleblock">
+								<div class="comment__photo">
+									<img src="img/img__quotes/03.jpg" alt="Фотография профиля">
+								</div>
+								<div class="comment__info">
+									<h3 class="comment__name" data-lang = "comment_3_name">Aaron Williams</h3>
+									<div class="comment__profession" data-lang = "comment_3_prof">Uproxx</div>
+								</div>
+								<div class="comment__social">
+									<span class="icon-twitter1"></span>
+								</div>
+							</div>
+							<div class="comment__footer">
+								<div class="comment__text" data-lang = "comment_3_text">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</div>
+								<div class="comment__date" data-lang = "comment_3_date">December 24, 2018</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="newsletter">
+			<div class="container">
+				<div class="newsletter__body">
+					<div class="newsletter__img">
+						<img src="img/img_newsletter/01.png" alt="Картинка черепа">
+					</div>
+					<div class="newsletter__content">
+						<div class="newsletter__titleblock">
+							<h3 data-lang ="newsletter_want">Want to stay in touch?</h3>
+							<h2 data-lang ="newsletter_subscribe">newsletter SUBSCRIBE</h2>
+						</div>
+						<div class="newsletter__text" data-lang ="newsletter_text">In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.</div>
+						<div class="newsletter__footerblock">
+							<form class="newsletter__mailblock" action = "#" method = "get">
+								<div class="newsletter__info">
+									<div class="newsletter__adress" data-lang ="newsletter_adress">Your email address</div>
+									<input class="newsletter__mail" type="email" name = "email" value = "aliciliniavopir@gmail.com" required>
+								</div>
+								<button type = "submit" class="newsletter__btn btn" data-lang ="newsletter_btn"><span>S</span>ubscribe now</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="container">
+					<div class="footer__block">
+						<div class="footer__content">
+							<div class="footer__logo">
+								<img src="img/logo.png" alt="Логотип">
+							</div>
+							<ul class="footer__list">
+								<li><a href = "#main" class="footer__item" data-lang ="main">MAIN</a></li>
+								<li><a href = "#about" class="footer__item" data-lang ="about">about</a></li>
+								<li><a href = "#features" class="footer__item" data-lang ="game">game features</a></li>
+								<li><a href = "#system" class="footer__item" data-lang ="system">System requirements</a></li>
+								<li><a href = "#quotes" class="footer__item" data-lang ="quotes">quotes</a></li>
+							</ul>
+							<div class="footer__social">
+								<span class="icon-facebook"></span>
+								<span class="icon-twitter1"></span>
+								<span class="icon-youtube"></span>
+								<span class="icon-twitch"></span>
+							</div>
+						</div>
+						<div class="footer__line"></div>
+						<div class="footer__items">
+							<div class="footer__rights" data-lang ="newsletter_rights"> © 2018 Outpost Games, Inc. All Rights Reserved</div>
+							<div class="footer__privacy">
+								<a href="#" data-lang ="newsletter_privacy">Privacy Policy</a>
+								<span></span>
+								<a href="#" data-lang ="newsletter_terms">Terms of Services</a>
+								<span></span>
+								<a href="#" data-lang ="newsletter_code">Code of Conduct</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Скрипты-->
+	<script type="module" src='js/script.js'></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
